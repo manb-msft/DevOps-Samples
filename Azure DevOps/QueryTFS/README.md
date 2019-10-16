@@ -9,7 +9,7 @@
 
 ##### How-To: 
 
-* Update the work-item query you want to run across all projects in the code, restore nuget packages, build and run! 
+* Update the work-item query you want to run across all projects in the code, restore nuget packages, build and run in "Release" mode! 
 
 ##### Note:
 
