@@ -150,10 +150,11 @@ namespace QueryTFS
                                 // add additional entries seperated by ',' 
                                 info += String.Format("{0},{1},{2},{3},{4},{5}\n",
                                     teamProj,
-                                    item.Id,
-                                    item.Title,
-                                    item.Fields[CoreField.AssignedTo].Value,
-                                    item.State, item.Tags);
+                                    item.Fields["System.Id"].Value,
+                                    item.Fields["System.Title"].Value,
+                                    item.Fields["System.AssignedTo"].Value,
+                                    item.Fields["System.State"].Value, 
+                                    item.Fields["System.Tags"].Value);
                             }
 
 
