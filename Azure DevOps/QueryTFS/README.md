@@ -4,7 +4,7 @@
 ##### Pre-Requisites: 
 
 * The account running QueryTFS.exe must be a TFS/Azure DevOps Server Administrator.
-* Supports only Azure DevOps Server
+* Supports only Azure DevOps Server, tested on TFS 2018
 
 
 ##### How-To: 
